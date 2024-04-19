@@ -493,9 +493,9 @@
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
 "@wttsolutions/eslint-config@^0.1":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@wttsolutions/eslint-config/-/eslint-config-0.1.23.tgz#d01a15a898d94e2ff719874083b68dda8e4c498a"
-  integrity sha512-NLAd+QDnWrOCnLYAw8gr6yTQNxxV1eofYpwuPIXVURmhQhul3nbRCCSPkjGGmAeLCCE62OxZ+c/nUhBNi5MPRw==
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@wttsolutions/eslint-config/-/eslint-config-0.1.24.tgz#2d725b4967a070bb5491ad31695e23f0cde9ec4e"
+  integrity sha512-a1HthUZr9+zsJxdkHimG5vStehN698nspVS05iek0aVrTG9YgoWHkBDGaWCbzZtNbGEbU6DUykIm94TxaAnGyA==
   dependencies:
     "@babel/core" "^7.24.4"
     "@babel/eslint-parser" "^7.24.1"
@@ -940,9 +940,9 @@ doctrine@^3.0.0:
     esutils "^2.0.2"
 
 electron-to-chromium@^1.4.668:
-  version "1.4.740"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.740.tgz#89c82421332ee425e5b193e3db2dea019d423419"
-  integrity sha512-Yvg5i+iyv7Xm18BRdVPVm8lc7kgxM3r6iwqCH2zB7QZy1kZRNmd0Zqm0zcD9XoFREE5/5rwIuIAOT+/mzGcnZg==
+  version "1.4.744"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.744.tgz#d19cdfdbd81bd800b71773702bcbaa129a3b2e8f"
+  integrity sha512-nAGcF0yeKKfrP13LMFr5U1eghfFSvFLg302VUFzWlcjPOnUYd52yU5x6PBYrujhNbc4jYmZFrGZFK+xasaEzVA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
