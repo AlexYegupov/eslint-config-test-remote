@@ -7,6 +7,7 @@
     "typescript": "5.5.0-dev.20240418"
   },
   "scripts": {
+    "eslint-config-version": "cat ./node_modules/@wttsolutions/eslint-config/package.json| jq '.version'",
     "test": "concurrently 'yarn:test-*' && echo 'ALL TESTS OK'",
     "test-eslint-base": "yarn --silent run eslint ./test/test-base.js | grep '2 problems'",
     "test-eslint-react": "yarn --silent run eslint --no-eslintrc --config ./.eslintrc-react.js ./test/test-react.jsx | grep '2 problems'",
@@ -16,6 +17,6 @@
     "test-prettier-react": "prettier test/test-react.jsx | grep \"  name: 'John',\"",
     "test-prettier-ts": "prettier test/test-ts.ts | grep \"  name: 'John',\"",
     "test-prettier-tsx": "prettier test/test-tsx.tsx | grep \"  name: 'John',\"",
-    "test-ts-config": "yarn tsc --showConfig | jq '.compilerOptions.removeComments' |grep false"
+    "test-ts-config": "yarn --silent tsc --showConfig | jq '.compilerOptions.removeComments' |grep false"
   }
 }
